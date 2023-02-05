@@ -1,13 +1,13 @@
 import React from 'react'
-import { NavLink, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 
 // partials
-import Navbar from '../partials/Navbar';
+import RootNavbar from '../partials/RootNavbar';
 
 export default function RootLayout() {
   return (
     <div className="root-layout">
-        <Navbar/>
+        <RootNavbar/>
         <main>
             {/* this is where the page components will be rendered */}
             <Outlet/>

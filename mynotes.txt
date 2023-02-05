@@ -11,4 +11,29 @@
 > Root Element is a Layout contains <Outlet> that displays
 the switching content
 
-3. 
+3. A Route that contains nested elements should
+> become a Layout configure here the partials Nav, Footers
+> along with the Outlet for switch the content
+
+4. Loaders - Load data into component before render
+> Replacement for UseEffect hook ensuring fetch is complete
+> and aborted as needed
+
+5. Short JSON Server command
+> npx json-server -p 8000 -w ./data/db.json
+
+6. useLoaderData() - to access the loader function 
+> within the Component folder
+
+7. Route Parameters - is the changeable part of the URL
+
+8. Error Elements - is loader fails to fetch data
+
+9. Making Breadcrumbs
+
+10. Forms and Actions
+> substitute on useState per each field and
+> separate event listener for each field
+> By using React Router form component
+
+11. Navigate 

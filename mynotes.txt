@@ -1,0 +1,14 @@
+
+1. Link vs NavLink
+> both are just converted into <a> tag
+> NavLink - however has class attr we can style a bit different
+> ex. when the link is active
+
+2. New features for React Router v6.4
+> <RouterProvider router={router} /> <- pass in the route
+> new createBrowserRouter instead of BrowserRouter
+> use Route instead of Routes
+> Root Element is a Layout contains <Outlet> that displays
+the switching content
+
+3. 

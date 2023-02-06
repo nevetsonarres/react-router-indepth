@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom"
 
 export default function Breadcrumbs() {
+    // get the current path of the user
     const location = useLocation();
     // console.log(location);
 

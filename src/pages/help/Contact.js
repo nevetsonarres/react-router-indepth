@@ -13,14 +13,6 @@ export const contactSubmit = async ({ request }) => {
 
   console.log(submission);
 
-  // try {
-  //   // send post request save to DB
-  //   const saveToDb = await Submission.create({ submission.email, submission.message });
-  // }
-  // catch (err) {
-  //   return { error: 'error on saving to DB'};
-  // }
-
   if(submission.message.length < 10) {
     return { error: 'message must be 10 chars long'};
   }
